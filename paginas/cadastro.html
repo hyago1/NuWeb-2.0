@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro-NuWeb</title>
+    <link rel="stylesheet" href="/css/stylescadastro.css" />
+  </head>
+  <body>
+    <form method="POST" action="http://localhost:8080/add">
+      <div class="cadastro">
+        <h2 class="title">Cadastro</h2>
+        <input
+
+          type="text"
+          checked=""
+          class="name-artist"
+          name="nome"
+          id="nomea"
+          placeholder="Nome do artista"
+        />
+        <input
+          type="text"
+          class="name-music"
+          name="musica"
+          id="nome-m"
+          placeholder="Nome da Musica"
+        />
+        <input
+          type="text"
+          class="duration-music"
+          name="duração"
+          id="duration-m"
+          placeholder="Duração Da Musica"
+        />
+        <input
+          type="text"
+          class="url-image"
+          name="urlimage"
+          id="url-img"
+          placeholder="Url da imagem"
+        />
+        <a href="/paginas/cadastro.html"
+          ><input type="submit" id="envio" value="Enviar" class="send" 
+        /></a>
+      </div>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

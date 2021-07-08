@@ -1,0 +1,193 @@
+{
+  "artistas": [
+    {
+      "nome": "San Joe",
+      "musica": "Desculpa Doutor",
+      "duração": "2:10",
+      "url": "",
+      "urlimage": "https://images.genius.com/18d950a56d0439115598ec29741cdb40.457x457x1.jpg"
+    },
+    {
+      "nome": "Coldplay",
+      "musica": "Fix you",
+      "duração": "2:30",
+      "url": "",
+      "urlimage": "https://roquereverso.files.wordpress.com/2021/05/coldplay.jpg"
+    },
+    {
+      "nome": "Aceu Valenca",
+      "musica": "Anuciação",
+      "duração": "3:10",
+      "url": "",
+      "urlimage": "https://studiosol-a.akamaihd.net/uploadfile/letras/fotos/6/2/c/7/62c7b80bb3eda1940f3285f213a54fc3-tb.jpg"
+    },
+    {
+      "nome": "Mc poze",
+      "musica": "Clima ensolarado",
+      "duração": "2:20",
+      "url": "www.google.com",
+      "urlimage": "https://i1.sndcdn.com/artworks-PEAviTVqYpoyc5Yx-NWbPiw-t500x500.jpg"
+    },
+    {
+      "nome": "Hyago",
+      "musica": "Teste",
+      "duração": "2:50",
+      "url": "www.google.com",
+      "urlimage": "https://images.tcdn.com.br/img/img_prod/697730/adesivo_lateral_vidro_caminhao_carro_decorativo_bart_simpson_5_1147485849_1_20201005081814.jpg"
+    },
+    {
+      "nome": null,
+      "musica": null,
+      "duração": null,
+      "url": null,
+      "urlimage": null
+    },
+    {
+      "nome": null,
+      "musica": null,
+      "duração": null,
+      "url": null,
+      "urlimage": null
+    },
+    {
+      "nome": null,
+      "musica": null,
+      "duração": null,
+      "url": null,
+      "urlimage": null
+    },
+    {
+      "nome": null,
+      "musica": null,
+      "duração": null,
+      "url": null,
+      "urlimage": null
+    },
+    {
+      "nome": null,
+      "musica": null,
+      "duração": null,
+      "url": null,
+      "urlimage": null
+    },
+    {
+      "nome": null,
+      "musica": null,
+      "duração": null,
+      "url": null,
+      "urlimage": null
+    },
+    {
+      "nome": null,
+      "musica": null,
+      "duração": null,
+      "url": null,
+      "urlimage": null
+    },
+    {
+      "nome": null,
+      "musica": null,
+      "duração": null,
+      "url": null,
+      "urlimage": null
+    },
+    {
+      "nome": null,
+      "musica": null,
+      "duração": null,
+      "url": null,
+      "urlimage": null
+    },
+    {
+      "nome": null,
+      "musica": null,
+      "duração": null,
+      "url": null,
+      "urlimage": null
+    },
+    {
+      "nome": null,
+      "musica": null,
+      "duração": null,
+      "url": null,
+      "urlimage": null
+    },
+    {
+      "nome": null,
+      "musica": null,
+      "duração": null,
+      "url": null,
+      "urlimage": null
+    },
+    {
+      "nome": null,
+      "musica": null,
+      "duração": null,
+      "url": null,
+      "urlimage": null
+    },
+    {
+      "nome": null,
+      "musica": null,
+      "duração": null,
+      "url": null,
+      "urlimage": null
+    },
+    {
+      "nome": null,
+      "musica": null,
+      "duração": null,
+      "url": null,
+      "urlimage": null
+    },
+    {
+      "nome": null,
+      "musica": null,
+      "duração": null,
+      "url": null,
+      "urlimage": null
+    },
+    {
+      "nome": null,
+      "musica": null,
+      "duração": null,
+      "url": null,
+      "urlimage": null
+    },
+    {
+      "nome": null,
+      "musica": null,
+      "duração": null,
+      "url": null,
+      "urlimage": null
+    },
+    {
+      "nome": null,
+      "musica": null,
+      "duração": null,
+      "url": null,
+      "urlimage": null
+    },
+    {
+      "nome": null,
+      "musica": null,
+      "duração": null,
+      "url": null,
+      "urlimage": null
+    },
+    {
+      "nome": null,
+      "musica": null,
+      "duração": null,
+      "url": null,
+      "urlimage": null
+    },
+    {
+      "nome": null,
+      "musica": null,
+      "duração": null,
+      "url": null,
+      "urlimage": null
+    }
+  ]
+}

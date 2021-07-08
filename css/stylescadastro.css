@@ -1,0 +1,67 @@
+body{
+     background-color: rgb(221, 221, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cadastro{
+    border: none;
+border-radius: 10px;
+    margin-top: 27vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   padding: 80px;
+    background-color: rgb(200, 200, 200);
+    padding-bottom: 18px;
+    padding-top: 18px;
+}
+.title{
+    font-size: 25px;
+    border-radius: 8px;
+    color: rgb(63, 63, 63);
+border: none;
+font-family: 'Open Sans', sans-serif;
+}
+.name-artist{
+    margin-bottom: 8px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px none;
+}
+.duration-music{
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+border: none;
+}
+.url-image{
+padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+border: none;
+
+}
+.name-music{
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+border: none;
+}
+
+.send{
+    border-radius: 8px;
+padding: 8px ;
+border: none;
+font-family: 'Open Sans', sans-serif;
+background-color: rgb(221, 221, 221);
+
+}
+.send:hover{
+
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: rgb(168, 168, 168);
+}
