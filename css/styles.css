@@ -173,27 +173,27 @@ header {
 .image {
   width: 75px;
   height: 75px;
-  margin-bottom: 58px;
+
   border-radius: 15px;
-  margin-left: 100px;
+
   display: flex;
 }
 
 .music {
   display: flex;
   justify-content: center;
-  margin-top: 30px;
-  margin-right: 46%;
-  margin-left: 5%;
+  
+  width: 100%;
+
 }
 
 @media (max-width: 1000px) {
   .music {
+    position: absolute;
     display: flex;
     justify-content: center;
-    margin-top: 46px;
-    margin-right: 46%;
-    margin-left: 25%;
+   left:50%;
+  width: 90%;
   }
 }
 
@@ -213,29 +213,20 @@ header {
   display: flex;
   justify-content: right;
   font-size: 16px;
-  margin-bottom: 145px;
+
 }
 
-.tituloesub {
-  position: relative;
-  margin-left: 20px;
-  margin-top: 13px;
-}
-.tituloesub-pp {
-  color: #a5a9af;
-}
+
 
 .sub {
-  margin-bottom: 81px;
+  align-items: center;
+  text-align: center;
   font-size: 10px;
-  width: 200px;
+  width: 80px;
 }
 
 @media (max-width: 600px) {
-  .tituloesub {
-    margin-left: 16px;
-    margin-top: 10px;
-  }
+
   .sub {
     margin-bottom: 47px;
     font-size: 10px;
@@ -283,5 +274,29 @@ header {
   background-color: #acadaf9a;
   transition: 0.9s;
 }
+.musicimagename{
+  display: flex; 
+  align-items: center;
+  width: 40rem;
+  height: 100px;
+  justify-content: space-between;
+}
 
-
+.musictime{
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  height: 80px;
+  
+}
+.nametime{
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 8em;
+}
+.time{
+  width: 40px;
+}

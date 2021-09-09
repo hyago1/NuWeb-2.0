@@ -48,21 +48,19 @@ async function pesquisar() {
        requestpesquisa.artistas[index].musica != null &&
        requestpesquisa.artistas[index].duração != null
       ) {
+ 
         teste.innerHTML +=
-          '<section class="music"><ul><a href="' +
-          "https://www.spotify.com/br/" +
-          '"><img class="image"  src="' +
-          imagem +
-          '"/></a></ul><div class="tituloesub"><ul><h4 class="titulo">' +
-         nomes+
-          '</h4><h5 class="sub">' +
-         requestpesquisa.artistas[index].musica +
-          "</h5></ul></div></section>";
-
-        teste2.innerHTML +=
-          ' </ul><h4 class="tempo">' +
-         requestpesquisa.artistas[index].duração +
-          "<h4></ul>";
+        '<div class="music"><ul><div class="musicimagename"><div class="musictime" ><a href="' +
+        "https://www.spotify.com/br/" +
+        '"><img class="image"  src="' +
+        imagem +
+        '"/></a><div class="nametime"><h4 class="titulo">' +
+       requestpesquisa.artistas[index].nome + 
+        '</h4><h5 class="sub">'+
+       requestpesquisa.artistas[index].musica +
+        "</h5></div></div>"+ '<div class="time">  <h4 class="tempo">' +
+       requestpesquisa.artistas[index].duração +
+        "<h4></ul></div></div></div>";
         //teste1.innerHTML +='<div class="tituloesub"><ul></ul></div>';
       }
       teste.children(index).removeAttribute("style")
@@ -102,20 +100,17 @@ async function clica() {
        requestpesquisa.artistas[index].duração != null
       ) {
         teste.innerHTML +=
-          '<section class="music"><ul><a href="' +
+          '<div class="music"><ul><div class="musicimagename"><div class="musictime" ><a href="' +
           "https://www.spotify.com/br/" +
           '"><img class="image"  src="' +
           imagem +
-          '"/></a></ul><div class="tituloesub"><ul><h4 class="titulo">' +
+          '"/></a><div class="nametime"><h4 class="titulo">' +
          requestpesquisa.artistas[index].nome +
           '</h4><h5 class="sub">' +
          requestpesquisa.artistas[index].musica +
-          "</h5></ul></div></section>";
-
-        teste2.innerHTML +=
-          ' </ul><h4 class="tempo">' +
+          "</h5></div></div>"+ '<div class="time">  <h4 class="tempo">' +
          requestpesquisa.artistas[index].duração +
-          "<h4></ul>";
+          "<h4></ul></div></div></div>";
         //teste1.innerHTML +='<div class="tituloesub"><ul></ul></div>';
       }
     }
